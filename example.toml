@@ -1,0 +1,25 @@
+[meta]
+name = "MC1611"
+desc = ""
+
+[datasets]
+
+    [datasets.mc1]
+    basedir = "mc1"
+    # replicates are relative to basedir
+    replicates = "*"
+
+        [datasets.mc1.trees]
+        # paths are relative to each replicate
+        gtrees_true = ""
+        gtrees_est = ""
+        strees = ""
+    
+    [datasets.mc6]
+    basedir = "mc6"
+    replicates = "*"
+
+        [datasets.mc6.trees]
+        gtrees_true = ""
+        gtrees_est = ""
+        strees = ""
